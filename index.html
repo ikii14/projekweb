@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Pulau Lombok</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Header dengan Gambar Latar */
+        .header-bg {
+        background-image: url('https://i.pinimg.com/736x/fd/24/20/fd24209749dbf7294c2e19694cea9dde.jpg'); /* Gunakan URL */
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        position: relative;
+        color: white;
+        }
+        .header-bg .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Navigasi */
+        .navigation-bar {
+            padding: 10px 0;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            background-color: #333;
+            display: flex;
+            justify-content: space-between; /* Pisahkan kiri dan kanan */
+            align-items: center;
+            padding: 0 20px;
+            position: sticky;
+            top: 0; /* Agar selalu di atas */
+            z-index: 10; /* Mengutamakan menu di atas elemen lain */
+        }
+
+        .navigation-bar .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navigation-bar .nav-link i {
+            margin-right: 5px; /* Jarak antara ikon dan teks */
+            font-size: 1.2rem;
+            vertical-align: middle;
+        }
+
+        .navigation-bar .nav-link:hover {
+            color: #ffcc00;
+        }
+
+        .dropdown-menu {
+            background-color: #333;
+        }
+
+        .dropdown-menu .dropdown-item {
+            color: white;
+            font-size: 1rem;
+        }
+
+        .dropdown-menu .dropdown-item:hover {
+            background-color: #444;
+        }
+
+        /* Bagian "Kenapa Lombok?" */
+        main {
+            background-color: #cde6fc;
+            color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            margin: 0;
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            font-size: 0.9rem;
+            background-color: #222;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="navigation-bar">
+        <!-- Utama dengan Ikon Home -->
+        <a href="index.html" class="nav-link">
+            <i class="fas fa-home"></i> Utama
+        </a>
+        <!-- Informasi -->
+        <a href="info.html" class="nav-link">Informasi</a>
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="budaya.html" class="dropdown-item">Budaya</a></li>
+                <li><a href="makanan_khas.html" class="dropdown-item">Makanan Khas</a></li>
+                <li><a href="tempat_wisata.html" class="dropdown-item">Tempat Wisata</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-bg">
+        <div class="overlay">
+            <h1>Explore Pulau Lombok</h1>
+            <p>Menemukan Keindahan Alam, Budaya, dan Kuliner Lombok</p>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <div class="container text-center">
+            <h2 class="section-title">Kenapa Lombok?</h2>
+            <p>
+                Pulau Lombok adalah destinasi impian dengan pesona alam dan budaya yang tiada duanya.
+            </p>
+            <p>
+                Jelajahi Lombok dan buat perjalanan Anda menjadi lebih bermakna.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Explore Pulau Lombok. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- Script Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

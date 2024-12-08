@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Explore Pulau Lombok</title>
+    <style>
+        /* Gaya Global */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Header dengan Gambar Latar */
+        .header-bg {
+            background-color: rgb(169, 255, 226);
+            background-size: cover;
+            background-position: center;
+            height: 20vh;
+            position: relative;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .header-bg .overlay {
+            background-color: rgba(105, 239, 150, 0.742);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .home-title {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Judul Bagian */
+        h1, h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Tata Letak Informasi Umum */
+        .home-image-info, .home-culture-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 15px;
+            margin: 20px;
+            justify-content: center;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .text-container {
+            flex: 1 1 300px;
+        }
+
+        /* Paragraf tambahan di bawah gambar dan paragraf pertama */
+        .additional-paragraphs {
+            margin-top: 20px;
+            padding: 0 30px;
+        }
+
+        .additional-paragraphs p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Seksi Sejarah dan Kebudayaan */
+        .home-culture {
+            background-color: #ffffff;
+            padding: 30px 20px;
+        }
+
+        .home-culture h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        /* Tombol Kembali ke Menu Utama */
+        .back-button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header-bg">
+        <div class="overlay"></div>
+        <h1 class="home-title">Selamat Datang di Pulau Lombok</h1>
+    </div>
+
+    <!-- Informasi Umum -->
+    <section>
+        <h1>Informasi Umum</h1>
+        <div class="home-image-info">
+            <!-- Gambar -->
+            <div class="image-container">
+                <img src="https://i.pinimg.com/736x/fc/f0/7e/fcf07e8ea8d76a5583b11d86f7c231ba.jpg" alt="Gambar Pulau Lombok">
+            </div>
+            <!-- Paragraf pertama -->
+            <div class="text-container">
+                <p>
+                    Pulau Lombok merupakan sebuah pulau di kepulauan Sunda Kecil atau Nusa Tenggara yang dipisahkan oleh Selat Lombok dari Pulau Bali di sebelah barat dan Selat Alas dari Pulau Sumbawa di sebelah timur yang menjadi bagian wilayah dari Provinsi Nusa Tenggara Barat (NTB).
+                    Wilayah Provinsi Nusa Tenggara Barat (NTB) meliputi 2 pulau besar yaitu Lombok dan Sumbawa, Pulau Lombok sendiri terdiri dari 1 Kota Madya yaitu Mataram yang sekaligus merupakan Ibu Kota dari Provinsi Nusa Tenggara Barat (NTB) dan  4 Kabupaten yaitu Lombok Barat, 
+                    Lombok Tengah, Lombok Timur serta Lombok Utara. Secara geografis Pulau Lombok terletak di titik koordinat 8.565’S 116.351’E  dengan luas wilayah 4.514,11 km2 dimana Selat Lombok sebagai penanda batas flora dan fauna Asia.
+                </p>
+                <p> Pada abad ke-19 seorang ilmuwan yang berasal dari Inggris Alfred Russel Wallace  adalah sosok yang pertama kali menyatakan hal ini sehingga untuk memberikan penghormatan padanya maka batas ini disebut Garis Wallace. Topografi pulau ini didominasi oleh gunung berapi yaitu 
+                    Gunung Rinjani yang ketinggiannya mencapai 3.726m  di atas permukaan laut dan menjadikannya yang ketiga tertinggi di Indonesia. Pada tahun 1997 berdasarkan Surat Keputusan Menhut No. 280/Kpts-VI/1997  kawasan Gunung Rinjani ditetapkan sebagai Taman Nasional dengan luas definitif 
+                    41.330h dengan tujuan untuk menjamin kawasan ini tetap lestari. Pulau Lombok berdasarkan sensus penduduk 2014 memiliki jumlah populasi 3.311.044 dimana 85 % penduduk pulau ini adalah suku Sasak dan sisanya berasal dari suku Bali, Samawa, Mbojo, Jawa, Bugis , Arab dan Tionghoa. </p>
+            </div>
+        </div>
+        <!-- Paragraf tambahan (di bawah gambar dan paragraf pertama) -->
+        <div class="additional-paragraphs">
+            <p>
+                Disamping Bahasa Indonesia sebagai bahasa nasional, penduduk Pulau Lombok terutama suku Sasak menggunakan bahasa Sasak sebagai bahasa utama dalam percakapan sehari-hari. Selain bahasa Sasak sebagai bahasa percakapan sehari-hari,
+                bahasa Bali juga sering digunakan sebagai bahasa sehari-hari terutama di Kota Mataram, Lombok Barat dan Utara karena di wilayah ini terdapat cukup banyak perkampungan suku Bali.  
+            </p>
+            <p>
+                Secara umum, bahasa Sasak bisa diklasifikasikan ke dalam: Kuto-Kute (Lombok Utara), Ngeto-Ngete (Lombok Tenggara), Meno-Mene (Lombok Tengah), Ngeno-Ngene (Lombok Tengah), dan Mriak-Mriku (Lombok Selatan). Mayoritas penduduk Pulau Lombok terutama suku Sasak beragama Islam,
+                agama kedua terbesar yang dianut di pulau ini adalah agama Hindu yang dipeluk oleh para penduduk keturunan Bali dan sisanya penganut Kristen, Buddha serta Konghuchu.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sejarah dan Kebudayaan -->
+    <section class="home-culture">
+        <h2>Sejarah dan Kebudayaan</h2>
+        <div class="home-culture-content">
+            <!-- Gambar -->
+            <div class="image-container">
+                <img src="https://i.pinimg.com/736x/57/65/20/576520b7938c8ae011bfb2c81fdf4c53.jpg" alt="Gambar Sejarah Lombok">
+            </div>
+            <!-- Paragraf pertama -->
+            <div class="text-container">
+                <p> Menurut isi Babad Lombok, kerajaan tertua yang pernah berkuasa di pulau ini bernama Kerajaan Laeq (dalam bahasa sasak laeq berarti waktu lampau), tetapi sumber lain yakni Babad Suwung, menyatakan bahwa kerajaan tertua yang ada di Lombok adalah Kerajaan Suwung yang dibangun dan dipimpin oleh Raja Betara Indera.
+                    Kerajaan Suwung kemudian surut dan digantikan oleh Kerajaan Lombok. Pada abad ke-9 hingga abad ke-11 berdiri Kerajaan Sasak yang kemudian dikalahkan oleh salah satu kerajaan yang berasal dari Bali pada masa itu. Beberapa kerajaan lain yang pernah berdiri di pulau Lombok antara lain Pejanggik, Langko, Bayan, Sokong Samarkaton dan Selaparang.
+                   </p>
+                   
+            </div>
+        </div>
+        <!-- Paragraf tambahan (di bawah gambar dan paragraf pertama) -->
+        <div class="additional-paragraphs">
+            <p> Kerajaan Selaparang sendiri muncul pada dua periode yakni pada abad ke-13 dan abad ke-16. Kerajaan Selaparang pertama adalah kerajaan Hindu dan kekuasaannya berakhir dengan kedatangan ekspedisi Kerajaan Majapahit pada tahun 1357. Kerajaan Selaparang kedua adalah kerajaan Islam dan kekuasaannya berakhir pada tahun 1744 setelah ditaklukkan oleh
+                gabungan pasukan Kerajaan Karangasem dari Bali dan Arya Banjar Getas yang merupakan keluarga kerajaan yang berkhianat terhadap Selaparang karena permasalahan dengan raja Selaparang. Pendudukan Bali ini memunculkan pengaruh kultur Bali yang kuat di sisi barat Lombok, seperti pada tarian serta peninggalan bangunan (misalnya Istana Cakranegara di Ampenan). 
+                Baru pada tahun 1894 Lombok terbebas dari pengaruh Karangasem akibat campur tangan Batavia (Hindia Belanda) yang masuk karena pemberontakan orang Sasak mengundang mereka datang. Namun, Lombok kemudian berada di bawah kekuasaan Hindia Belanda secara langsung.
+            </p>
+            <p> Tradisi lainnya seperti Peresean dan Tarian Sasak mencerminkan kehidupan masyarakat Lombok yang erat dengan alam dan budaya leluhur.
+                Lombok dalam banyak hal mirip dengan Bali, dan pada dasawarsa tahun 1990-an mulai dikenal wisatawan mancanegara. Namun dengan munculnya krisis moneter yang melanda Indonesia pada akhir tahun 1997 dan krisis-krisis lain yang menyertainya, potensi pariwisata agak terlantarkan. 
+                Lalu pada awal tahun 2000 terjadi kerusuhan antar-etnis dan antar agama di seluruh Lombok sehingga terjadi pengungsian besar-besaran kaum minoritas. Mereka terutama mengungsi ke pulau Bali. Namun selang beberapa lama kemudian situasi sudah menjadi kondusif dan mereka sudah kembali. 
+                Pada tahun 2007 sektor pariwisata adalah sektor dengan kontribusi terbesar kedua terhadap PDRB Nusa Tenggara Barat.
+            </p>
+                
+        </div>
+    </section>
+
+    <!-- Tombol Kembali -->
+    <div class="back-button-container">
+        <a href="index.html" class="back-button">Kembali ke Menu Utama</a>
+    </div>
+</body>
+</html>
